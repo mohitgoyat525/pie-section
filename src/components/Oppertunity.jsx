@@ -55,12 +55,12 @@ const Oppertunity = () => {
         ref={sectionRef}
         className="flex items-center justify-center min-h-screen bg-[#191423] px-4"
       >
-        <div className="max-xl:my-10">
+        <div className="max-xl:my-10 w-full flex items-center justify-center flex-col">
           <h1 className="text-white text-[46px] max-md:text-3xl font-semibold mb-[36px] leading-[150%]">
             Opportunity Overview
           </h1>
 
-          <div className="w-full flex-wrap max-w-[1143px] mx-auto flex items-center gap-4 max-sm:justify-center">
+          <div className="w-full flex-wrap max-w-[1143px] mx-auto flex items-center gap-4 max-lg:justify-center">
             {OPPORTUNITIES_LIST.map((obj, i) => (
               <div
                 key={i}
