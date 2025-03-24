@@ -20,7 +20,7 @@ const CustomHero = ({
     <>
       <div
         id={idClass}
-        className={`flex max-lg:flex-wrap max-xl:my-10 px-4 absolute max-lg:relative max-lg:top-0 max-lg:left-0 max-lg:translate-x-0 max-lg:translate-y-0 left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] items-center gap-4 w-full max-w-[1140px] mx-auto ${mainClass}`}
+        className={`flex max-lg:flex-wrap px-4 absolute max-lg:relative max-lg:top-0 max-lg:left-0 max-lg:translate-x-0 max-lg:translate-y-0 left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] items-center gap-4 w-full max-w-[1140px] mx-auto ${mainClass}`}
       >
         <div
           className={`${bgClass} w-full max-w-[525px] rounded-[16px] max-lg:max-w-full  h-[675px] max-xl:h-[630px]  max-lg:h-full p-5`}
@@ -67,7 +67,7 @@ const CustomHero = ({
             alt="img"
             width={604}
             height={675}
-            className={` ${imgClass} w-full max-w-[604px] h-[675px] max-xl:h-[630px] max-lg:h-[560px] max-md:h-[500px] max-sm:h-[320px] max-lg:max-w-full`}
+            className={` ${imgClass} w-full max-w-[604px] rounded-[16px] h-[675px] max-xl:h-[630px] max-lg:h-[560px] max-md:h-[500px] max-sm:h-[320px] max-lg:max-w-full`}
           />
         </div>
       </div>

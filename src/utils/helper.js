@@ -59,3 +59,38 @@ export const PIE_LIST = [
     mobileImg: "/assets/images/png/mobile-four.png",
   },
 ];
+
+export const OPPORTUNITIES_LIST = [
+  {
+    iconImg: "/assets/images/png/rocket.png",
+    title: "Opportunity",
+  },
+  {
+    iconImg: "/assets/images/png/status.png",
+    title: "status",
+  },
+  {
+    iconImg: "/assets/images/png/track-record.png",
+    title: "Track Record",
+  },
+  {
+    iconImg: "/assets/images/png/leadership.png",
+    title: "Leadership team",
+  },
+  {
+    iconImg: "/assets/images/png/growth.png",
+    title: "Scalable growth",
+  },
+  {
+    iconImg: "/assets/images/png/pricing-innovation.png",
+    title: "Pricing innovation",
+  },
+  {
+    iconImg: "/assets/images/png/design.png",
+    title: "Design",
+  },
+  {
+    iconImg: "/assets/images/png/vertically.png",
+    title: "Vertically Integrated",
+  },
+];
