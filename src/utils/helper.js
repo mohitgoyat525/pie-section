@@ -13,7 +13,7 @@ export const PIE_LIST = [
     headingTwo: "Live tracking of the tax return",
     descriptionFive:
       "Once submitted, users will be kept in the loop on the progress of their return, every step of the way. Our system is integrated with HMRC and alerts will be sent to the user to take action where and when required.",
-    mobileImg: "/assets/images/webp/real-time-tax.webp",
+    mobileImg: "/assets/images/png/mobile-one.png",
   },
   {
     id: "two",
@@ -30,7 +30,7 @@ export const PIE_LIST = [
 
     descriptionFive:
       "Our in-app function will enable them to ask questions and get real time answers on any tax issues they may be facing, with sector specific tax assistants on hand to provide valuable insight around the relevant tax situation.",
-    mobileImg: "/assets/images/webp/multiple-income.webp",
+    mobileImg: "/assets/images/png/mobile-two.png",
   },
   {
     id: "three",
@@ -46,7 +46,7 @@ export const PIE_LIST = [
     headingTwo: "Live tax admin support",
     descriptionFive:
       "Users will also have the option to pay a £59 checking fee to have their return reviewed and checked by tax assistants, that will have been trained and certified by our in house CIMA qualified accountancy practice.",
-    mobileImg: "/assets/images/webp/bookseeing.webp",
+    mobileImg: "/assets/images/png/mobile-three.png",
   },
   {
     id: "four",
@@ -56,6 +56,6 @@ export const PIE_LIST = [
     headingTwo: "Insights on your income",
     descriptionFive:
       "Our app will analyse data and provide insights into things like the biggest expenses and how these fluctuate on a monthly or yearly basis and even tell users how they’re performing in comparison to their peers and highlight any areas where they could improve efficiency",
-    mobileImg: "/assets/images/webp/invoceing.webp",
+    mobileImg: "/assets/images/png/mobile-four.png",
   },
 ];

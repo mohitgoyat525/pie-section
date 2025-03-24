@@ -94,6 +94,11 @@ const Hero = () => {
               headingTextTwo={item.headingTwo}
               descriptionFiveText={item.descriptionFive}
               Img={item.mobileImg}
+              imgClass={`${
+                index === 3
+                  ? "!max-w-[600px] w-full max-lg:!max-w-full"
+                  : "!max-w-[550px] max-lg:!max-w-full"
+              }`}
             />
           </div>
         ))}
